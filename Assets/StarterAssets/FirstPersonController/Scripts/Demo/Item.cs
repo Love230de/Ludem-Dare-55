@@ -20,7 +20,7 @@ public class Item : MonoBehaviour , IItem
         //Do stuff other than picking up
        
         rb.isKinematic = true;
-        transform.position = transform.position + Vector3.forward;
+        transform.position = player.position + player.forward * 1.5f;
      
         transform.SetParent(player);
     }
