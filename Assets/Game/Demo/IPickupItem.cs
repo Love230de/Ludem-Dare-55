@@ -6,5 +6,5 @@ public interface IPickupItem
 {
     public void Pickup(Transform player);
 
-    public void drop(Transform player);
+    public void drop();
 }

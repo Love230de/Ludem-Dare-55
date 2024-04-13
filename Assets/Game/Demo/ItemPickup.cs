@@ -50,9 +50,15 @@ public class ItemPickup : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && hasItem)
         {
             hasItem = false;
-            Item.drop(transform);
+            Item.drop();
             Item = null;
         }
+    }
+
+    public void ClearItem()
+    {
+        hasItem = false;
+        Item = null;
     }
 }
   

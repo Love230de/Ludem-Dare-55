@@ -17,7 +17,7 @@ public class DropZone : MonoBehaviour
 
 
             GameController.instance.IncreaseItems();
-            item.drop(transform);
+            item.drop();
                  
              Destroy(other.gameObject);
 
