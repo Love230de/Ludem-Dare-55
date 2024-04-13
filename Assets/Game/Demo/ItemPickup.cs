@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestItemPickUp : MonoBehaviour
+public class ItemPickup : MonoBehaviour
 {
  
    private RaycastHit hit;
-   private Item testItem { get; set; }
+   private PickupItem testItem { get; set; }
     private bool hasItem;
     private void Start()
     {
@@ -28,12 +28,12 @@ public class TestItemPickUp : MonoBehaviour
     {
         if(Physics.Raycast(transform.position,transform.forward,out hit,5f))
         {
-            if (hit.collider.gameObject.TryGetComponent<IItem>(out IItem item) && testItem == null)
+            if (hit.collider.gameObject.TryGetComponent<IPickupItem>(out IPickupItem item) && testItem == null)
             {
              
                 if (Input.GetKeyDown(KeyCode.F) && !hasItem)
                 {
-                    testItem = (Item)hit.collider.gameObject.GetComponent<IItem>();
+                    testItem = (PickupItem)hit.collider.gameObject.GetComponent<IPickupItem>();
                     hasItem = true;
                    
                     testItem.Pickup(transform);
