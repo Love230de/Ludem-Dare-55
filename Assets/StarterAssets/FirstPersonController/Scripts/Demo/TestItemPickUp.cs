@@ -20,7 +20,7 @@ public class TestItemPickUp : MonoBehaviour
             if (hit.collider.gameObject.TryGetComponent<IItem>(out IItem item) && testItem == null)
             {
              
-                if (Input.GetKey(KeyCode.F) && !hasItem)
+                if (Input.GetKeyDown(KeyCode.F) && !hasItem)
                 {
                     testItem = (Item)hit.collider.gameObject.GetComponent<IItem>();
                     hasItem = true;
@@ -38,18 +38,14 @@ public class TestItemPickUp : MonoBehaviour
 
 
 
-        if (Input.GetKey(KeyCode.F) && hasItem)
+        if (Input.GetKeyDown(KeyCode.F) && hasItem)
         {
             hasItem = false;
          
           
 
         }
-        if(!hasItem && hasItem)
-        {
-            testItem.drop(transform);
-            ;
-        }
+     
     }
  }
   
