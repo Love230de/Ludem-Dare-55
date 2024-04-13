@@ -365,6 +365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxItemCount: 1
   pauseMenu: {fileID: 141712056}
+  oxygenTimer:
+    maxSeconds: 60
   pause: 0
 --- !u!4 &419709796
 Transform:
