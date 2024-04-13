@@ -366,7 +366,8 @@ MonoBehaviour:
   maxItemCount: 1
   pauseMenu: {fileID: 141712056}
   oxygenTimer:
-    maxSeconds: 60
+    GaugeArrow: {fileID: 1346403734}
+    maxSeconds: 100
   pause: 0
 --- !u!4 &419709796
 Transform:
@@ -1257,6 +1258,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2114283753834967213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1346403734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1777444076535455472, guid: ebf00269648c3d00ea9eb4a22359afb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1003392137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1500944335
 GameObject:
   m_ObjectHideFlags: 0
