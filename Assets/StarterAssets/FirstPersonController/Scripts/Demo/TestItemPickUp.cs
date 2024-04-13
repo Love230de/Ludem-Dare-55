@@ -14,7 +14,18 @@ public class TestItemPickUp : MonoBehaviour
     }
     private void FixedUpdate()
     {
-       
+        if (hasItem)
+        {
+            CheckDrop();
+        }
+        else
+        {
+            CheckPickup();
+        }
+    }
+
+    private void CheckPickup()
+    {
         if(Physics.Raycast(transform.position,transform.forward,out hit,5f))
         {
             if (hit.collider.gameObject.TryGetComponent<IItem>(out IItem item) && testItem == null)
@@ -29,25 +40,22 @@ public class TestItemPickUp : MonoBehaviour
                 }
             }
         }
-
     }
 
     private void Update()
     {
+    }
 
-
-
-
+    private void CheckDrop()
+    {
         if (Input.GetKeyDown(KeyCode.F) && hasItem)
         {
             hasItem = false;
-         
-          
-
+            testItem.drop(transform);
+            testItem = null;
         }
-     
     }
- }
+}
   
 
 
