@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private int maxItemCount;
     [SerializeField] private GameObject pauseMenu;
     //OxygenTimer
+    [SerializeField] private OxygenTimer oxygenTimer;
     private int items;
    [SerializeField] private bool pause;
 
@@ -67,9 +68,12 @@ public class GameController : MonoBehaviour
             ChangeGameState(GameState.Win);
             
         }
-        //if oxygen.amount < 0:
-        //oxygen.amount = 0
-        //gamestate = lose
+        oxygenTimer.UpdateOxygenTimer();
+        Debug.Log(oxygenTimer.OxygenAmount);
+        if(oxygenTimer.Empty)
+        {
+           ChangeGameState(GameState.Lose);
+        }
         if(Input.GetKeyDown(KeyCode.Escape) && !Pause)
         {
             Pause = true;
@@ -90,6 +94,7 @@ public class GameController : MonoBehaviour
            
         }
     }
+    
     private void Awake()
     {
         if (instance == null)
