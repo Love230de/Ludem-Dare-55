@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="oxygen_gauge.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0154442"
+     inkscape:cx="-44.31558"
+     inkscape:cy="114.23572"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="359"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect70"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <rect
+         style="fill:#000000;stroke-width:0.264583"
+         id="rect5"
+         width="79.375"
+         height="39.6875"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath70">
+      <ellipse
+         style="display:none;fill:#ff00ff;stroke-width:0.183563"
+         id="ellipse70"
+         cx="39.6875"
+         cy="39.6875"
+         rx="25.927107"
+         ry="25.927111"
+         clip-path="none"
+         inkscape:label="linesinnercircleclip" />
+      <path
+         id="lpe_path-effect70"
+         style="display:inline;fill:#ff00ff;stroke-width:0.183563"
+         class="powerclip"
+         d="M 1.3826602,0.2432365 H 77.992339 V 44.815284 H 1.3826602 Z M 65.614607,39.6875 A 25.927107,25.927111 0 0 0 39.6875,13.760389 25.927107,25.927111 0 0 0 13.760393,39.6875 25.927107,25.927111 0 0 0 39.6875,65.614611 25.927107,25.927111 0 0 0 65.614607,39.6875 Z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="display:inline;fill:#808080;stroke-width:0.280986"
+       id="path1"
+       cx="39.6875"
+       cy="39.6875"
+       rx="39.687496"
+       ry="39.6875"
+       inkscape:label="bg" />
+    <ellipse
+       style="fill:#ffffff;stroke-width:0.243864"
+       id="ellipse1"
+       cx="39.6875"
+       cy="39.6875"
+       rx="34.44426"
+       ry="34.444263"
+       clip-path="url(#clipPath5)"
+       inkscape:label="semicirclebg" />
+    <g
+       id="g70"
+       inkscape:label="lines"
+       clip-path="url(#clipPath70)"
+       inkscape:path-effect="#path-effect70">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 64.043271,15.331729"
+         id="path60"
+         inkscape:original-d="M 39.6875,39.6875 64.043271,15.331729" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 V 5.2432365"
+         id="path61"
+         inkscape:original-d="M 39.6875,39.6875 V 5.2432365" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 48.602331,6.4168966"
+         id="path62"
+         inkscape:original-d="M 39.6875,39.6875 48.602331,6.4168966" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 56.909631,9.8578936"
+         id="path63"
+         inkscape:original-d="M 39.6875,39.6875 56.909631,9.8578936" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 69.517106,22.46537"
+         id="path64"
+         inkscape:original-d="M 39.6875,39.6875 69.517106,22.46537" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 72.958099,30.772668"
+         id="path65"
+         inkscape:original-d="M 39.6875,39.6875 72.958099,30.772668" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 30.772668,6.4168966"
+         id="path66"
+         inkscape:original-d="M 39.6875,39.6875 30.772668,6.4168966" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 22.465369,9.8578936"
+         id="path67"
+         inkscape:original-d="M 39.6875,39.6875 22.465369,9.8578936" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 15.331729,15.331729"
+         id="path68"
+         inkscape:original-d="M 39.6875,39.6875 15.331729,15.331729" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 9.8578952,22.46537"
+         id="path69"
+         inkscape:original-d="M 39.6875,39.6875 9.8578952,22.46537" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 39.6875,39.6875 6.4168998,30.772668"
+         id="path70"
+         inkscape:original-d="M 39.6875,39.6875 6.4168998,30.772668" />
+    </g>
+    <ellipse
+       style="display:none;fill:#ffffff;stroke-width:0.243864"
+       id="ellipse54"
+       clip-path="none"
+       ry="34.444263"
+       rx="34.44426"
+       cy="39.6875"
+       cx="39.6875"
+       inkscape:label="gaugecircleclip" />
+    <rect
+       style="display:none;fill:#000000;stroke-width:0.264583"
+       id="rect54"
+       width="79.375"
+       height="39.6875"
+       x="0"
+       y="0"
+       inkscape:label="toprect" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.457239"
+       y="38.360149"
+       id="text3"
+       inkscape:label="E"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.264583"
+         x="15.457239"
+         y="38.360149">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.199497"
+       y="38.360149"
+       id="text4"
+       inkscape:label="F"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.264583"
+         x="58.199497"
+         y="38.360149">F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.2182px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.455457"
+       x="31.152891"
+       y="65.567039"
+       id="text2"
+       inkscape:label="O"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.455457"
+         x="31.152891"
+         y="65.567039">O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.75333"
+       y="68.763161"
+       id="text71"
+       inkscape:label="2"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         style="stroke-width:0.264583"
+         x="44.75333"
+         y="68.763161">2</tspan></text>
+  </g>
+</svg>
