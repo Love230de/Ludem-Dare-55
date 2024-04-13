@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
  
    private RaycastHit hit;
-   private PickupItem testItem { get; set; }
+   private PickupItem Item { get; set; }
     private bool hasItem;
     private void Start()
     {
         
     }
-    private void FixedUpdate()
+    private void Update()
     {
         if (hasItem)
         {
@@ -26,33 +27,31 @@ public class ItemPickup : MonoBehaviour
 
     private void CheckPickup()
     {
-        if(Physics.Raycast(transform.position,transform.forward,out hit,5f))
+        if(Physics.Raycast(transform.position,transform.forward,out hit,50f))
         {
-            if (hit.collider.gameObject.TryGetComponent<IPickupItem>(out IPickupItem item) && testItem == null)
+            if (hit.collider.gameObject.TryGetComponent<IPickupItem>(out IPickupItem item) && Item == null)
             {
-             
+            
                 if (Input.GetKeyDown(KeyCode.F) && !hasItem)
                 {
-                    testItem = (PickupItem)hit.collider.gameObject.GetComponent<IPickupItem>();
+                    Item = (PickupItem)hit.collider.gameObject.GetComponent<IPickupItem>();
                     hasItem = true;
                    
-                    testItem.Pickup(transform);
+                    Item.Pickup(transform);
                 }
             }
         }
     }
 
-    private void Update()
-    {
-    }
+
 
     private void CheckDrop()
     {
         if (Input.GetKeyDown(KeyCode.F) && hasItem)
         {
             hasItem = false;
-            testItem.drop(transform);
-            testItem = null;
+            Item.drop(transform);
+            Item = null;
         }
     }
 }
