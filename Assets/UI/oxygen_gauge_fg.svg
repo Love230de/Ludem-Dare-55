@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="oxygen_gauge_fg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0154442"
+     inkscape:cx="-44.315581"
+     inkscape:cy="114.23572"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect70"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath70">
+      <ellipse
+         style="display:block;fill:#ff00ff;stroke-width:0.183563"
+         id="ellipse70"
+         cx="39.6875"
+         cy="39.6875"
+         rx="25.927107"
+         ry="25.927111"
+         clip-path="none"
+         inkscape:label="linesinnercircleclip" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="display:inline;fill:#808080;stroke-width:0.280986"
+       inkscape:label="bg"
+       d="M 39.687499 0 A 39.687496 39.6875 0 0 0 0 39.687499 A 39.687496 39.6875 0 0 0 39.687499 79.374999 A 39.687496 39.6875 0 0 0 79.374999 39.687499 A 39.687496 39.6875 0 0 0 39.687499 0 z M 39.687499 5.2430908 A 34.44426 34.444263 0 0 1 56.909704 9.8577961 A 34.44426 34.444263 0 0 1 74.131908 39.687499 L 39.687499 39.687499 L 5.2430908 39.687499 A 34.44426 34.444263 0 0 1 22.465295 9.8577961 A 34.44426 34.444263 0 0 1 39.687499 5.2430908 z " />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.2182px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.455457"
+       x="31.152891"
+       y="65.567039"
+       id="text2"
+       inkscape:label="O"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.455457"
+         x="31.152891"
+         y="65.567039">O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.75333"
+       y="68.763161"
+       id="text71"
+       inkscape:label="2"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         style="stroke-width:0.264583"
+         x="44.75333"
+         y="68.763161">2</tspan></text>
+  </g>
+</svg>
