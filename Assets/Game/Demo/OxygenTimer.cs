@@ -14,13 +14,9 @@ public class OxygenTimer
 
     void GaugeFunctionality()
     {
-        float currentOxygen = (seconds / maxSeconds) * 100;
+        float currentOxygen = (seconds / maxSeconds);
 
-        float angle = GaugeArrow.transform.localEulerAngles.z;
-
-        angle -= Time.deltaTime;
-
-        angle = Mathf.Clamp(angle, -currentOxygen * 0.90f, currentOxygen * 0.90f);
+        float angle = Mathf.Lerp(90, -90, currentOxygen);
         
         GaugeArrow.transform.localEulerAngles = new Vector3(0, 0, angle); 
     }
