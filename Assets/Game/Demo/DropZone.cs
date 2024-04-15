@@ -33,6 +33,10 @@ public class DropZone : MonoBehaviour
     private void Update()
     {
         transmitter[index].SetActive(true);
+        if (index > 0)
+        {
+            transmitter[index - 1].SetActive(false);
+        }
     }
 
 }
