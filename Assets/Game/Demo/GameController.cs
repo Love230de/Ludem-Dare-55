@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public enum GameState
 {
-    Win,Lose,Pause,Resume,Exit
+    Win,Lose,Escape,Pause,Resume,Exit
 }
 public class GameController : MonoBehaviour
 {
@@ -16,12 +16,16 @@ public class GameController : MonoBehaviour
     //OxygenTimer
     [SerializeField] private OxygenTimer oxygenTimer;
     private int items;
-   [SerializeField] private bool pause;
-
-   public void ChangeGameState(GameState gameState)
+    private bool pause;
+    private int numOfAsteroids;
+    private bool escape;
+    public bool Escape => escape; 
+    public void ChangeGameState(GameState gameState)
     {
         switch (gameState)
         {
+            case GameState.Escape:
+                break;
             case GameState.Win:
                 break;
             case GameState.Lose:
@@ -61,6 +65,14 @@ public class GameController : MonoBehaviour
             return;
         }
     }
+    public void DecreaseAsteroids()
+    {
+        if (numOfAsteroids > 0)
+        {
+            numOfAsteroids--;
+            return;
+        }
+    }
     private void Update()
     {
         if(items >= maxItemCount)
@@ -69,7 +81,6 @@ public class GameController : MonoBehaviour
             
         }
         oxygenTimer.UpdateOxygenTimer();
-        Debug.Log(oxygenTimer.OxygenAmount);
         if(oxygenTimer.Empty)
         {
            ChangeGameState(GameState.Lose);
