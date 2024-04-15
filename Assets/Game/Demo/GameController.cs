@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     //Since we don't have a start level yet I am just referencing a static instance of this class
     public static GameController instance { get;set; }
     public bool Pause { get => pause; set => pause = value; }
-
+    [SerializeField] private GameObject died;
     [SerializeField] private int maxItemCount;
     [SerializeField] private GameObject pauseMenu;
     //OxygenTimer
@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
                 break;
             case GameState.Lose:
                 //Lose
+                died.SetActive(true);
                 break;
             case GameState.Pause:
                 pauseMenu.SetActive(true);
