@@ -1946,6 +1946,7 @@ RectTransform:
   - {fileID: 8160084293297639839}
   - {fileID: 287317552922276762}
   - {fileID: 8734538515461244056}
+  - {fileID: 8063073396654575536}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7048,10 +7049,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 597308371062931948}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8080841852154815418
 MeshRenderer:
@@ -10868,7 +10869,6 @@ SceneRoots:
   - {fileID: 2070925443028286827}
   - {fileID: 3893294199639930361}
   - {fileID: 597308371062931948}
-  - {fileID: 8063073396654575536}
   - {fileID: 727527675}
   - {fileID: 619107114}
   - {fileID: 594439311}
