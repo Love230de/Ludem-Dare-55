@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private int maxItemCount;
     [SerializeField] private GameObject pauseMenu;
     //OxygenTimer
-    [SerializeField] private OxygenTimer oxygenTimer;
+    [SerializeField] public OxygenTimer oxygenTimer;
     private int items;
    [SerializeField] private bool pause;
 
