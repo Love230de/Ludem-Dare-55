@@ -25,7 +25,7 @@ public class Win : MonoBehaviour
         }
       else
         {
-          //  SceneManager.LoadScene(0);
+          SceneManager.LoadScene(0);
         }
     }
 }

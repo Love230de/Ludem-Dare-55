@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public enum GameState
 {
     Win,Lose,Pause,Resume,Exit
@@ -23,8 +24,10 @@ public class GameController : MonoBehaviour
         switch (gameState)
         {
             case GameState.Win:
+                SceneManager.LoadScene(1);
                 break;
             case GameState.Lose:
+                //Lose
                 break;
             case GameState.Pause:
                 pauseMenu.SetActive(true);
