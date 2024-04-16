@@ -93,7 +93,7 @@ PrefabInstance:
     - target: {fileID: -5174998623976215188, guid: e5398caeb7902da8e82131f8b08e68e7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5398caeb7902da8e82131f8b08e68e7,
         type: 3}
@@ -103,12 +103,12 @@ PrefabInstance:
     - target: {fileID: 1995080505481591081, guid: e5398caeb7902da8e82131f8b08e68e7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7307109073415605764, guid: e5398caeb7902da8e82131f8b08e68e7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

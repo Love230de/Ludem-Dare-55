@@ -101,6 +101,7 @@ public class GameController : MonoBehaviour
     
     private void Awake()
     {
+        oxygenTimer.StartOxygen();
         if (instance == null)
         {
             instance = this;

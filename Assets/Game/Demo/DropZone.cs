@@ -7,7 +7,7 @@ public class DropZone : MonoBehaviour
 {
 
     [SerializeField] private GameObject[] transmitter;
-    private int index;
+    private int index = 0;
     private void OnTriggerEnter(Collider other)
     {
         if(other.TryGetComponent<IPickupItem>(out IPickupItem item))
@@ -33,10 +33,6 @@ public class DropZone : MonoBehaviour
     private void Update()
     {
         transmitter[index].SetActive(true);
-        if (index > 0)
-        {
-            transmitter[index - 1].SetActive(false);
-        }
     }
 
 }

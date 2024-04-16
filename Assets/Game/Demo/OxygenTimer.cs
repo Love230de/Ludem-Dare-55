@@ -11,7 +11,7 @@ public class OxygenTimer
     public float OxygenAmount { get { return seconds; } }   
     public float maxSeconds;
    
-
+   
     void GaugeFunctionality()
     {
         float currentOxygen = (seconds / maxSeconds);
@@ -20,9 +20,14 @@ public class OxygenTimer
         
         GaugeArrow.transform.localEulerAngles = new Vector3(0, 0, angle); 
     }
+  public void StartOxygen()
+    {
+        seconds = maxSeconds;
+    }
    public void UpdateOxygenTimer()
     {
-    
+
+  
         if(seconds > 0)
         {
             seconds -= Time.deltaTime;
